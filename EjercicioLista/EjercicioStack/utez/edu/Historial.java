@@ -16,7 +16,13 @@ public class Historial {
         }
 
     System.out.println("Se quita del historial: "+ pestañas.pop());
-    System.out.println("En este momento te encuentras navegando en: ");
+    System.out.println("En este momento te encuentras navegando en: " + pestañas.peek());
+
+    System.out.println("Agregare una nueva busqueda ");
+    pestañas.push("Canva.com");
+
+    System.out.println("Mostrando stack: " + pestañas);
+
 
 
 
