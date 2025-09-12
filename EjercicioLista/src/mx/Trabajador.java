@@ -43,5 +43,10 @@ public void setSalario( double salario){
     this.salario = salario;
 }
 
+ public String toString() {
+        return "ID: " + id + ", Nombre: " + nombre + ", Salario: $" + salario;
+    }
+
+
 
 }
