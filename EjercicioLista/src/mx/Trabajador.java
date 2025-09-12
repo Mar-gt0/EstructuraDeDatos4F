@@ -1,6 +1,7 @@
-package EjercicioLista;
+package mx;
 
-public class Trabajador{
+public class Trabajador {
+
 public int id;
 public String nombre;
 public double salario;
@@ -16,7 +17,7 @@ this.salario = salario;
 }
 
 public String getNombre(){
-    this.nombre = nombre;
+    return nombre;
 }
 
 public void setNombre( String nombre){
@@ -25,17 +26,17 @@ public void setNombre( String nombre){
 
 
 public int getId(){
+    return id;
+}
+
+public void setId( int id){
     this.id = id;
 }
 
-public void setId( int nombre){
-    this.nombre = nombre;
-}
 
 
-
-public double detDouble(){
-    this.salario = salario;
+public double getSalario(){
+    return salario;
 }
 
 public void setSalario( double salario){
