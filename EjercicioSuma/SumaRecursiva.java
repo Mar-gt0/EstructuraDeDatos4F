@@ -12,7 +12,6 @@ public class SumaRecursiva {
 
     public static void main(String[] args) {
         int resultado = SumaRecur(3);
-
             System.out.println(resultado);
         
 
