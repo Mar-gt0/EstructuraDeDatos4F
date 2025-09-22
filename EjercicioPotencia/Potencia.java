@@ -11,10 +11,9 @@ public class Potencia {
     }
 
     public static void main(String[] args) {
-        int potencia = elevarPontencia(2, 0);
+        int potencia = elevarPontencia(2, 3);
 
         System.out.println("El resultado es: " + potencia);
     
     }
-
 }
