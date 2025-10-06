@@ -10,7 +10,7 @@ public class MainMaterias {
         lista.agregar("programacion");
         lista.agregar("historia");
 
-        String materiaBuscar = "fisica";
+        String materiaBuscar = "programacion";
 
         lista.imprimir();
         System.out.println("Busqueda: " + materiaBuscar);
