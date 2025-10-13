@@ -53,6 +53,7 @@ public class ArrBidi {
         };
 
         //imprimir un arreglo irregular
+        System.out.println("mprimir un arreglo irregular");
         System.out.println(Arrays.toString(arrBiD[0]));
         for(int i = 0; i < arrBiD.length; i++){
             for(int j = 0; j < arrBiD[i].length; j++){
@@ -69,19 +70,19 @@ public class ArrBidi {
         System.out.println(Arrays.toString(b));
 
         // forma 1: copiarlo en el arreglo b
-        // for (int i = 0; i < b.length; i++) {
-        //     b[i] = a[i];
-        // }
+        for (int i = 0; i < b.length; i++) {
+            b[i] = a[i];
+        }
 
         // forma 2: 
         //System.arraycopy(a, 0, b, 0,4);
 
         // forma 3: 
-        int[] c = Arrays.copyOf(a, 5);
+        //int[] c = Arrays.copyOf(a, 5);
 
         // imprimir arreglo copiado 
         System.out.println("copiada");
-        System.out.println(Arrays.toString(c));
+        System.out.println(Arrays.toString(b));
 
 
         //ejercicio de calentamiento jiji
