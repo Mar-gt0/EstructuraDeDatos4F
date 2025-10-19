@@ -48,26 +48,6 @@ public class DoublelinkedList {
         System.out.println(current);
     }
 
-
-    
-    // public void remove(int data){
-    //     if (head == null) {
-    //         System.out.println("--- La lista esta vacia ---");
-    //         return;
-    //     }
-
-    //     if (head.data == data) {
-    //         head = head.next;
-    //         return;
-            
-    //     }else{
-    //         System.out.println("--- Valor no encontrado ---");
-    //         return;
-    //     }
-
-    // }
-
-
     
     Node tail;
 
@@ -105,7 +85,7 @@ public class DoublelinkedList {
         // b: nodo en medio
         else {
             current.prev.next = current.next;
-            current.next.prev = current.prev;
+            current.-next.prev = current.prev;
         }
 
         System.out.println("Elemento " + data + " eliminado.");
