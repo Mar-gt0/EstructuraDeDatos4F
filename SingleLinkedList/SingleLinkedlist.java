@@ -10,7 +10,6 @@ public class SingleLinkedlist {
                 return;
             }
 
-
             //Recorrido
             //(de la linea marcada en rojo me lo puedo aprender por que lo usaremos mucho)
             Node current = head;
@@ -64,8 +63,7 @@ public class SingleLinkedlist {
         Node current = head;
         int contador = 0;
         while (current != null) {
-                if (current.data == data) {//cuando comparamos primitivos si podemos hacer ==, pero cuando no se usa .equals
-                contador++;
+                if (current.data == data) {
                 }
                 current = current.next;
             }
