@@ -37,6 +37,11 @@ public class SingleList {
     public void removeDuplicado() {
     Node current = head;
 
+    if (head == null) { 
+        System.out.println("La lista esta vacia");
+            return;
+        }
+
     while (current != null) {
         Node buscador = current;
         while (buscador.next != null) {
