@@ -48,7 +48,7 @@ public class DoublelinkedList {
         System.out.println(current);
     }
 
-    
+    // Funcion o metodo de remove que quedo de tarea
     Node tail;
 
     // Elimina el primer nodo que contenga el valor indicado

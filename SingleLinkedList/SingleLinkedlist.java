@@ -49,6 +49,8 @@ public class SingleLinkedlist {
         current.next = current.next.next;
     }
 
+
+    //imprimir una SingleLinkedList 
     public void printList(){
         Node current = head;
             while (current != null) {
