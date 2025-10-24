@@ -6,6 +6,7 @@ public class MainArrayStack {
         stack1.push('A');
         stack1.push('B');
         stack1.push('C');
+        System.out.println("--- Clear ---");
         stack1.pop();
         stack1.print();
     }
