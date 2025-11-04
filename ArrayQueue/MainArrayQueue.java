@@ -1,7 +1,5 @@
 package ArrayQueue;
 
-
-
 public class MainArrayQueue {
     public static void main(String[] args) {
         ArrayQueue<Character> customQueue = new ArrayQueue<>();
