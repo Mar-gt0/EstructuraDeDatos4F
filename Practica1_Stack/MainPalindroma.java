@@ -5,7 +5,7 @@ public class MainPalindroma {
         public static boolean isPalindrome(String text) {
             ArrayStack2<Character> stack = new ArrayStack2<>();
     
-            // Normalizar texto: quitar espacios, signos y pasar a minúsculas
+          
             String clean = "";
             for (int i = 0; i < text.length(); i++) {
                 char c = text.charAt(i);
@@ -15,7 +15,7 @@ public class MainPalindroma {
                 }
             }
     
-            // Comparar con lo que sale de la pila
+    
             for (int i = 0; i < clean.length(); i++) {
                 if (clean.charAt(i) != stack.pop()) {
                     return false;
