@@ -1,9 +1,14 @@
-package SelectionSort;
+package com.example.demo.Service;
 
-import java.util.Arrays;
 
-public class Selectionsort {
-    public void sort(int[] arr){
+
+import org.springframework.stereotype.Service;
+
+@Service // no olvidar agregar esta etiqueta de steretype
+public class SortService {
+
+   
+    public int[] sort(int[] arr){
         int n = arr.length;
         for (int i = 0; i < n-1; i++) {
             int minIndex = i;  //seleccionamos el primero como el menor
@@ -17,6 +22,8 @@ public class Selectionsort {
             arr[minIndex] = arr[i];
             arr[i] = temp;
         }
-        System.out.println(Arrays.toString(arr));
+        return arr;
     }
+
+
 }
